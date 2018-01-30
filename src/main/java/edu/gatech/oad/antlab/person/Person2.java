@@ -42,8 +42,8 @@ public class Person2 {
 
     Collections.shuffle(arr);
 
-    for(int j = 0; j < arr.length(); j++) {
-      modifiedString += arr[j];
+    for(int j = 0; j < arr.size(); j++) {
+      modifiedString += arr.get(j);
     }
 
     return modifiedString;
