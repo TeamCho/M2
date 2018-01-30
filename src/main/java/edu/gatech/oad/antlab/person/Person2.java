@@ -1,6 +1,6 @@
 package edu.gatech.oad.antlab.person;
 import java.util.Collections;
-import java.util.Arraylist;
+import java.util.ArrayList;
 
 /**
  *  A simple class for person 2
@@ -33,7 +33,7 @@ public class Person2 {
 	 */
 	private String calc(String input) {
 	  //Person 2 put your implementation here
-    Arraylist<Character> arr = new Arraylist<Character>();
+    ArrayList<Character> arr = new ArrayList<Character>();
     String modifiedString = "";
 
     for(int i = 0; i < input.length(); i++) {
@@ -45,7 +45,7 @@ public class Person2 {
     for(int j = 0; j < arr.length(); j++) {
       modifiedString += arr[j];
     }
-    
+
     return modifiedString;
 	}
 	/**
