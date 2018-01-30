@@ -31,8 +31,8 @@ public class Person5 {
 	 */
 	private String calc(String input) {
 	  	//Person 5 put your implementation here
-		char one = charAt(input[0]);
-		char two = charAt(input[1]);
+		char one = input.charAt(0);
+		char two = input.charAt(1);
 
 		String last = input.substring(2);
 
